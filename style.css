@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'MonoplexKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-kr@1.0/MonoplexKR-Regular.woff2') format('woff2');
+  font-style: normal;
+}
+
+
+.dust {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-out;
+  z-index: 2;
+}
+
+
+.dust img {
+  width: 100px;
+  height: 100px;
+}
+.dust.c1 img {
+  width: 200px;
+  height: 200px;
+}
+
+
+.dust-content {
+  display: none;
+  border-style: none;
+  position: absolute;
+  left: -30px;
+  width: max-content;
+  max-width: 35rem;
+  margin: 0;
+  padding: 1rem;
+  word-break: keep-all;
+  font-family: 'MonoplexKR-Regular';
+  line-height: 1.4;
+  text-align: left;
+  cursor: default;
+}
+
+
+  #c1 {
+    color: #4E342E;
+    font-size: 21px;
+  }
+
+  .dust-content:nth-of-type(2){
+    color: #696969;
+    font-size: 19px;
+  }
+
+  .dust-content:nth-of-type(3){
+      color: #20B2AA;
+    font-size: 17px;
+  }
+
+.dust:hover .dust-content {
+  display: block;
+  text-shadow: white 0px 0 3px;
+}
+.dust:hover > img {
+  filter: brightness(0) blur(10px);
+}
+
+
+
+#c4 {
+  color: blueviolet;
+  font-size: 15px;
+}
+
+#c5 {
+  color: green;
+  font-size: 15px;
+}
+
+#c6 {
+  color: yellow;
+  font-size: 15px;
+}
+
+#c7 {
+  color: dimgray;
+  font-size: 23px;
+}
+
+#c8 {
+  color: crimson;
+  font-size: 25px;
+}
+
+#c9 {
+  color: orange;
+  font-size: 17px;
+}
+
+#c10 {
+  color: teal;
+  font-size: 27px;
+}
+
+#c11 {
+  color: rgb(99, 125, 46);
+  font-size: 29px;
+}
+
+#c12 {
+  color: salmon;
+  font-size: 15px;
+}
+
+#c13 {
+  color: aqua;
+  font-size: 15px;
+}
+
+#c14 {
+  color: deeppink;
+  font-size: 19px;
+}
+
+#c15 {
+  color: navy;
+  font-size: 23px;
+}
+
+#c16 {
+  color: silver;
+  font-size: 21px;
+}
+
+#c17 {
+  color: khaki;
+  font-size: 15px;
+}
+
